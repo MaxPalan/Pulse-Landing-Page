@@ -1,0 +1,36 @@
+div div {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    transition: 2s;
+}
+#first {
+    background: url(../img/1.png);
+    background-size: 100% 100%;
+}
+#second {
+    background: url(../img/2.jpg);
+    background-size: 100% 100%;
+    left: 100px;
+}
+#third {
+    background: url(../img/3.jpg);
+    background-size: 100% 100%;
+    left: 200px;
+}
+#fourth {
+    background: url(../img/4.jpg);
+    background-size: 100% 100%;
+    left: 300px;
+}
+.galary__item:hover {
+    z-index: 1;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.galary__wrap {
+    position: relative;
+    margin: auto;
+    width: 800px;
+}
